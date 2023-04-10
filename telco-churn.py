@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 # Data processing 
 
-telco_data = pl.read_csv("/Users/ryanquach/Downloads/telco-customer-churn.csv")
+telco_data = pl.read_csv("/Users/[redacted]/Downloads/telco-customer-churn.csv")
 
 dummy_var = ( 
     telco_data
